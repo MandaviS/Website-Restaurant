@@ -1,0 +1,14 @@
+JSX =>JavaScript Extension and XML
+
+Rules =>
+1. It always return single element.
+2. Use Div or React Fragment to wrap all JSX code.
+3. ClassName instead of Class.
+4. React.Fragment element can not be written without import React.
+   <></> is shortcut for <React.Fragment></React.Fragment>
+5. Need to close all JSX tags in React.
+6. Use camelCase for attributes.
+7. We can use JS in JSX using {}, curly braces.
+
+Set data structure => to get unique elements from an array
+

@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Restaurant from './Components/Basics/Restaurant';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <MyName /> */}
+    <Restaurant />
+    </>
   );
-}
+};
+
+// const MyName = () =>{
+//     return <h1>Hello Jii</h1>
+// }
+//how React actually interpret the function
+
+// const App = () => {
+//   return React.createElement(
+//     "div",
+//     {},
+//     React.createElement("h1",{},"Hello World")
+//   );
+// };
 
 export default App;
+
