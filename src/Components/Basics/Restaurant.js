@@ -16,7 +16,7 @@ const Restaurant = () => {
     // const myStyle = {color: "red"}; <= for including css
     const [menuData, setmenuData] = useState(Menu);
     const [menuList, setmenuList] = useState(uniqueList);
-    const filterItem= (category) => {
+    const filterItem = (category) => {
 
       if(category === "All"){
         setmenuData(Menu);

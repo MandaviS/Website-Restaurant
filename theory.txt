@@ -10,5 +10,14 @@ Rules =>
 6. Use camelCase for attributes.
 7. We can use JS in JSX using {}, curly braces.
 
-Set data structure => to get unique elements from an array
+Set data structure => to get unique elements from an array.
+
+useState can be used to manage the states of various elements.
+
+useEffect Hooks tells React that some task has to be done just after rendering.
+
+useReducer Hooks is similar to useState. useState is best option for small tasks
+and useReducer Hooks are best for larger tasks.
+
+
 
